@@ -1,0 +1,98 @@
+.menu{
+    margin-left: 220px; 
+    margin-top: 20;
+    color: rgb(230, 90, 114);
+    font-family: cursive;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 300 ;
+}
+
+.menu:hover {
+    color: rgb(233, 162, 172);
+}
+
+ .title{
+    margin-left:400px ;
+    width: 800px;
+    font-family: cursive;
+    font-size:45px ;
+    margin-top: 100px;
+    display:block;
+    color: hsl(351, 66%, 64%);      
+ }             
+
+.under_title{
+    color: rgb(253, 161, 177);
+    font-size:16px ;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+ }
+ .first{
+    margin-left: 400px;
+ }
+ .image{
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+ }
+
+ .descript{
+    width:600px;
+    display: block;
+    margin: 50px auto;
+    font-family: cursive;
+    color: black;
+    font-size: 15px;
+ }
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(207, 62, 86);
+}
+.subscribe{
+    padding: 10px;
+    background-color: rgb(207, 62, 86);
+}
+
+.subscribe input{
+    width: 200px;
+    padding: 5px;
+}
+
+.subscribe button{
+    background-color: beige;
+    border:none ;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.review{
+    margin-top: 60px;
+    border: 1px solid  rgb(207, 62, 86);
+    padding: 20px;
+    font-family: cursive;
+    color: rgb(253, 161, 177);
+}
+
+.rating{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.star{
+    color: gold;
+}
+
+input[type="text"], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(207, 62, 86);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
